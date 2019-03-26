@@ -2,16 +2,17 @@
   "name": "voicy",
   "version": "0.0.1",
   "description": "Text to speech telegram bot",
-  "main": "app.js",
+  "main": "voicy.app.js",
   "private": true,
   "license": "MIT",
   "engines": {
-    "node": ">=10.0"
+    "node": "10.x"
   },
   "scripts": {
-    "start": "node app.js",
+    "start": "node voicy.app.js",
     "localize": "node localize.js",
-    "sendout": "node sendout.js"
+    "sendout": "node sendout.js",
+    "test": "node test.js"
   },
   "dependencies": {
     "@google-cloud/speech": "^0.9.3",
@@ -38,5 +39,14 @@
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-react": "^6.8.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
 }

@@ -8,7 +8,7 @@ function setupMongoose() {
   // Setup bluebird as a promise engine
   mongoose.Promise = global.Promise
   // Connect to the db
-  mongoose.connect(process.env.MONGO_URL, {
+  mongoose.connect(process.env.MONGODB_URI, {
     useMongoClient: true,
     // DB gets huge, so setting up custom timeouts
     socketTimeoutMS: 10000,
@@ -16,7 +16,7 @@ function setupMongoose() {
   })
   // Reconnect on disconnect
   mongoose.connection.on('disconnected', () => {
-    mongoose.connect(process.env.MONGO_URL, {
+    mongoose.connect(process.env.MONGODB_URI, {
       useMongoClient: true,
       // DB gets huge, so setting up custom timeouts
       socketTimeoutMS: 10000,

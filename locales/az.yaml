@@ -5,7 +5,7 @@ google_error_doc: 'Bağışlayın, etibarnamə sənədi ilə cavablamalısınız
 google_error_mime: "Bağışlayın, sənədlərin yazılış mimi belə olmalıdır 'text/plain'"
 google_success: 'Təbriklər! “Voicy” *${projectId}* Google Speech Layihəsi üçün etibarnamə fayllarını əldə etdi. Artıq Google Speech tanımağından istifadə edə biləcəksiniz.'
 help: |
-  😎 *Voicy* qəbul etdiyi hər cür səsli mesajları və audio faylarda (.ogg, .oflac, .wav, .mp3) olan danışıqları yazılı formata çevirir. “Voicy” ilə şəxsi söhbət otağında danışa, yaxud qrupa əlavə edə bilərsiniz. 
+  😎 *Voicy* qəbul etdiyi hər cür səsli mesajları və audio faylarda (.ogg, .oflac, .wav, .mp3) olan danışıqları yazılı formata çevirir. “Voicy” ilə şəxsi söhbət otağında danışa, yaxud qrupa əlavə edə bilərsiniz.
 
   Əgər bu botdan şəxsi mesajlarda istifadə etmək istəyirsinizsə, zəhmət olmasa, kimləsə şəxsi qrup söhbəti açın və *Voicy*ni ora əlavə edin. Əgər *Voicy*ni qrup söhbətinə əlavə etmək istəyirsinizsə, zəhmət olmasa, onu qrup üzvü kimi daxil edin, yaxud qrupla *Voicy* bot profilinə yığışın.
 

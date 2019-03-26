@@ -23,7 +23,7 @@ You can also help by translating the bot to other languages or fixing some texts
 
 # Environment variables in `.env` file
 
-- `MONGO_URL` — Url for the mongo database used
+- `MONGODB_URI` — Url for the mongo database used
 - `TOKEN` — Telegram bot token
 - `SALT` — Random salt to generate various encrypted stuff
 - `ADMIN_ID` — Chat id of the person who shall receive valuable logs

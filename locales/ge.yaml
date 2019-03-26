@@ -13,7 +13,7 @@ help: |
 
   /engine – hier kannst du eine der Spracherkennungs-Engines auswählen: wit.ai, Yandex SpeechKit oder Google Speech ⚙
   /language – damit kannst du die Erkennungssprache auswählen 📣
-  /lock – umschalten, ob Nicht-Admins in Gruppen-Chats die Befehle verwenden können 🔑 
+  /lock – umschalten, ob Nicht-Admins in Gruppen-Chats die Befehle verwenden können 🔑
   /files – umschalten, ob der Bot versuchen sollte, Audiodateien zu konvertieren, oder sie einfach ignoriert 📁
   /silent – schaltet den Stumm-Modus ein, sodass keine zusätzliche Nachrichten wie „Spracherkennung wird gestartet“ gesendet werden 😶
   /google – Google-Anmeldeinformationen für Google Speech einrichten 🦆
