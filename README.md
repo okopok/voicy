@@ -21,6 +21,12 @@ You can also help by translating the bot to other languages or fixing some texts
 5. Run `yarn install` in the root folder
 6. Run `yarn start`
 
+# Heroku
+```
+ heroku create
+ heroku buildpacks:add https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
+```
+
 # Environment variables in `.env` file
 
 - `MONGODB_URI` — Url for the mongo database used
