@@ -26,13 +26,14 @@ function startBot() {
     // Start bot
     if (process.env.USE_WEBHOOK === 'true') {
       const domain = process.env.WEBHOOK_DOMAIN
+      const url = process.env.APP_URL;
       bot.telegram
         .deleteWebhook()
         .then(async () => {
           const secretPath = uuid()
           bot.startWebhook(`/${secretPath}`, undefined, PORT)
           await bot.telegram.setWebhook(
-            `https://${domain}/${secretPath}`,
+            `${url}/${secretPath}`,
             undefined,
             100
           )
