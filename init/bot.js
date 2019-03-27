@@ -32,11 +32,7 @@ function startBot() {
         .then(async () => {
           const secretPath = uuid()
           bot.startWebhook(`/${secretPath}`, undefined, PORT)
-          await bot.telegram.setWebhook(
-            `${url}/${secretPath}`,
-            undefined,
-            100
-          )
+          await bot.telegram.setWebhook(`${url}/${secretPath}`)
           const webhookInfo = await bot.telegram.getWebhookInfo()
           console.info('Bot is up and running with webhooks', webhookInfo)
         })
