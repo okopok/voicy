@@ -21,6 +21,16 @@ You can also help by translating the bot to other languages or fixing some texts
 5. Run `yarn install` in the root folder
 6. Run `yarn start`
 
+# google 
+
+- Select or create a `Cloud Platform project`. Go to the [projects](https://console.cloud.google.com/project) page.
+- Enable billing for your project. Enable [billing](https://support.google.com/cloud/answer/6293499#enable-billing).
+- Enable the `Google Cloud Speech API`. Enable the [speech API](https://console.cloud.google.com/flows/enableapi?apiid=speech.googleapis.com).
+- Enable the `Google Cloud Storage API`. Enable the [storage API](https://console.cloud.google.com/flows/enableapi?apiid=storage-api.googleapis.com).
+- [Set up authentication](https://console.cloud.google.com/apis/credentials/serviceaccountkey) with a service account with Project>Owner role so you can access the API and select `.json` file format.
+- Send `/google` to voicybot.
+- `Reply` with the `.json` file you’ve downloaded 
+
 # Heroku
 ```
  heroku create
